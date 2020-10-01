@@ -10,7 +10,7 @@ char key[100],play[5][5], ct[255], msg[255],plain_text[255],c_text[255];
 void main(){
 
 int choice,i,flag=0,j,k,size;
-
+//get data from user
 printf("Enter plain text:");
 scanf("%[^\n]",msg);
 size=strlen(msg);
